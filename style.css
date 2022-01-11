@@ -1,0 +1,89 @@
+/******************************************************************************
+CSS (Cascading Style Sheet)
+******************************************************************************/
+body,h1,h2,h3,h4,h5,h6,p {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  margin: 0px;
+}
+
+ul img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  width:300px;
+  float:left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ol li a {
+  padding-left: 20px;
+}
+
+li a.active {
+  background-color: #000;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.activeAssign{
+  background-color: #555;
+  color: white;
+  padding:20px 0px 20px 20px;
+}
+
+#main {
+  float: left;
+  padding-left: 200px;
+  padding-top: 20px;
+  width: 80%;
+  background-color: <img src="https://cdn.glitch.com/0d424cee-f226-4600-bb8c-7998087600d9%2FTanjiro__Demon_Slayer_.0.png?v=1629142212994" height=100x>
+}
+
+#home {
+  text-align: center;
+}
+
+#home img {
+  width: 30%;
+  margin-top: 20px;
+}
+
+#about,#mysites,#assignments,#footer {
+  clear:left;
+  margin-top: 40px;
+}
+
+#footer{
+  padding-top:40px;
+}
